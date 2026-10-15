@@ -1,6 +1,3 @@
--- Laboratorio #8, Etapa 1 (paso 1.3): crea la base de datos y tu registro.
--- Solo cambia la última línea (CAMBIA-...) con tus datos de estudiante.json.
--- Deja 'TEMP0000' hasta el paso 3.4 del README; luego pon tu código real y ejecuta de nuevo.
 
 DROP DATABASE IF EXISTS lab8_web;
 CREATE DATABASE lab8_web CHARACTER SET utf8mb4;
@@ -16,4 +13,4 @@ CREATE TABLE estudiantes (
 );
 
 INSERT INTO estudiantes (cedula, nombre, apellido, codigo)
-VALUES ('CAMBIA-TU-CEDULA', 'CAMBIA-TU-NOMBRE', 'CAMBIA-TU-APELLIDO', 'TEMP0000');
+VALUES ('8-1015-1565', 'René', 'Mariscal', 'TEMP0000');
